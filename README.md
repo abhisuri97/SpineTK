@@ -1,5 +1,7 @@
 # SpineTK [WIP]
 
+![](https://i.imgur.com/3nQo0jB.png)
+
 This is a repository that contains the code to train a network for doing MR, CT, and X-ray image annotation (landmark annotation of six keypoints on individual vertebral bodies for vertebral height measurement). It is recommended that you run this on Google Colab. 
 
 ### Set up images/annotations
