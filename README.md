@@ -190,7 +190,7 @@ read_img_and_plot_kps(test_img, 'test', seq)
 
 The .json files must have the following general format: 
 
-```json
+```js
 {
     'file_name': path to file,
     'height': image height in px,
@@ -211,7 +211,7 @@ The .json files must have the following general format:
 
 You'll also need to generate a `metadata.json` file. The metadata file should contain the following: 
 
-```json
+```js
 {
     "image_id_that_correlated_to_folder_names": {
         "stratifying variable": True or False // (e.g. "Hardware": True)
